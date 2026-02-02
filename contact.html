@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Precision HVAC Services of Florida</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:#f5f6f7;
+  color:#000000;
+}
+
+/* ===== HEADER WITH IMAGE EFFECT ===== */
+header{
+ position:relative;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),
+    url('https://www.parkershvac.com/wp-content/uploads/2022/07/tenant-building.jpg');
+  background-size:cover;
+  background-position:center;
+  color:#fff;
+}
+.nav{
+  max-width:1200px;
+  margin:auto;
+  padding:28px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.logo{
+  font-size:30px;
+  font-weight:700;
+  letter-spacing:1px;
+}
+.logo span{color:#f59e0b}
+.nav a{
+  color:#fff;
+  text-decoration:none;
+  margin-left:18px;
+  padding:10px 22px;
+  border-radius:25px;
+  background:rgba(0, 0, 0, 0.12);
+  font-size:14px;
+}
+.nav a:hover{
+  background:#f59e0b;
+  color:#000;
+}
+
+/* ===== HERO ===== */
+.hero{
+  max-width:1200px;
+  margin:auto;
+  padding:90px 20px 100px;
+}
+.hero h1{
+  font-size:44px;
+  margin-bottom:15px;
+}
+.hero p{
+  font-size:18px;
+  max-width:760px;
+  line-height:1.7;
+  opacity:0.95;
+}
+
+/* ===== CONTACT SECTION ===== */
+.contact-section{
+  max-width:1200px;
+  margin:auto;
+  padding:80px 20px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:50px;
+}
+.contact-box{
+  background:#ffffff;
+  padding:40px;
+  border-left:6px solid #f59e0b;
+}
+.contact-box h2{
+  margin-top:0;
+  font-size:28px;
+}
+.contact-box p{
+  font-size:16px;
+  line-height:1.8;
+  color:#080808;
+}
+.contact-info{
+  margin-top:30px;
+}
+.contact-info p{
+  margin:12px 0;
+  font-size:15px;
+}
+
+/* ===== FORM ===== */
+form input, form textarea{
+  width:100%;
+  padding:14px;
+  margin-bottom:15px;
+  border:1px solid #000000;
+  font-family:'Poppins',sans-serif;
+}
+form button{
+  padding:14px 30px;
+  background:#000000;
+  color:#fff;
+  border:none;
+  font-size:15px;
+  cursor:pointer;
+}
+form button:hover{
+  background:#f59e0b;
+  color:#000;
+}
+
+/* ===== MAP ===== */
+.map{
+  margin-top:30px;
+}
+iframe{
+  width:100%;
+  height:260px;
+  border:0;
+}
+
+/* ===== FOOTER ===== */
+footer{
+  background:#000000;
+  color:#ffffff;
+  padding:50px 20px;
+}
+.footer-inner{
+  max-width:1200px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr;
+  gap:40px;
+}
+footer h4{margin-top:0}
+footer a{
+  color:#ffffff;
+  text-decoration:none;
+  display:block;
+  margin:6px 0;
+  font-size:14px;
+}
+.copy{
+  text-align:center;
+  margin-top:35px;
+  font-size:13px;
+  opacity:0.7;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">
+      Precision <span>HVAC</span>
+    </div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <h1>Contact Precision HVAC</h1>
+    <p>
+      Get in touch with our team for professional HVAC services,
+      inspections, repairs, or general inquiries.
+    </p>
+  </div>
+</header>
+
+<section class="contact-section">
+
+  <div class="contact-box">
+    <h2>Contact Information</h2>
+    <p>
+      Precision HVAC Services of Florida provides reliable HVAC solutions
+      across Lehigh Acres and surrounding areas.
+    </p>
+
+    <div class="contact-info">
+      <p><strong>Business Name:</strong> Precision HVAC Services of Florida</p>
+      <p><strong>Category:</strong> HVAC Contractor</p>
+      <p><strong>Phone:</strong> +1 239-480-5357</p>
+      <p><strong>Address:</strong><br>
+        1237 Homestead Rd N #51,<br>
+        Lehigh Acres, FL 33936,<br>
+        United States
+      </p>
+    </div>
+
+    <div class="map">
+      <iframe 
+        src="https://www.google.com/maps?q=1237+Homestead+Rd+N+Lehigh+Acres+FL+33936&output=embed"
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+
+  <div class="contact-box">
+    <h2>Request Service</h2>
+    <p>
+      Fill out the form below and our team will contact you
+      regarding your HVAC service request.
+    </p>
+
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="tel" placeholder="Phone Number">
+      <textarea rows="5" placeholder="Service Details"></textarea>
+      <button type="submit">Submit Request</button>
+    </form>
+  </div>
+
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <h4>Precision HVAC Services of Florida</h4>
+      <p>Professional HVAC contractor serving Florida.</p>
+    </div>
+
+    <div>
+      <h4>Company</h4>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <a href="tel:+12394805357">+1 239-480-5357</a>
+      <a href="contact.html">Service Request</a>
+    </div>
+  </div>
+
+  <div class="copy">
+    © 2026 Precision HVAC Services of Florida. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
